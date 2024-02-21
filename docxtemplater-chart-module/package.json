@@ -1,0 +1,72 @@
+{
+  "_from": "docxtemplater-chart-module@1.0.2",
+  "_id": "docxtemplater-chart-module@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-Q5uixr1aiXrlcvej3LGAnpOzrqA=",
+  "_location": "/docxtemplater-chart-module",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "docxtemplater-chart-module@1.0.2",
+    "name": "docxtemplater-chart-module",
+    "escapedName": "docxtemplater-chart-module",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/docxtemplater-chart-module/-/docxtemplater-chart-module-1.0.2.tgz",
+  "_shasum": "439ba2c6bd5a897ae572f7a3dcb1809e93b3aea0",
+  "_spec": "docxtemplater-chart-module@1.0.2",
+  "_where": "C:\\xampp\\htdocs\\ci-rest-server\\express-server",
+  "author": {
+    "name": "Danila Dergachev",
+    "email": "gnomdan@yandex.ru"
+  },
+  "bugs": {
+    "url": "https://github.com/prog666/docxtemplater-chart-module/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "docxtemplater": "^1.0.5",
+    "gulp-browserify": "^0.5.0",
+    "jszip": "^2.4.0",
+    "xmldom": "^0.1.19"
+  },
+  "deprecated": false,
+  "description": "Chart Module for docxtemplater v1.0",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "~3.8.0",
+    "gulp-coffee": "~2.0.1",
+    "gulp-uglify": "~0.3.0",
+    "gulp-watch": "~0.6.5"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "homepage": "https://github.com/prog666/docxtemplater-chart-module#readme",
+  "keywords": [
+    "docx",
+    "docxtemplater",
+    "generation",
+    "microsoft word",
+    "charts",
+    "chart"
+  ],
+  "license": "MIT",
+  "main": "js/index.js",
+  "name": "docxtemplater-chart-module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prog666/docxtemplater-chart-module.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.0.2"
+}

@@ -1,0 +1,7 @@
+version: "3"
+services:
+  report-template-server:
+    build: .
+    container_name: reporttemplateserver
+    ports:
+      - "10004:3000"
