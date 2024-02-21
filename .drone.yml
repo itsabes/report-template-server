@@ -1,0 +1,24 @@
+kind: pipeline
+name: default
+
+steps:
+  - name: ssh-deploy
+    image: appleboy/drone-ssh
+    when:
+      event: [push, tag, deployment]
+    settings:
+      host:
+        from_secret: deploy_host
+      username:
+        from_secret: deploy_username
+      password:
+        from_secret: deploy_password
+      port: 22
+      command_timeout: 3m
+      script:
+        - cd /home/spekta/project/report-template-server
+        - git fetch
+        - git pull
+        - docker-compose down
+        - docker-compose build --no-cache
+        - docker-compose up -d
